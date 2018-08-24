@@ -53,7 +53,7 @@ ZYPhotoAlbumProtocol回调
 
 ```swift 
  func photoAlbum(selectPhotos: [ZYPhotoModel]) {
-        
+        //选择的照片之后去layoutView显示
         let imageArray = selectPhotos.map { (model) -> UIImage in
             return model.thumbnailImage!
         }
