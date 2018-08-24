@@ -1,0 +1,1317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A6AC19B718561C8929CC396F9C2D6B /* ZYPhotoPreviewDeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F473818C81C14E5F892B5B0CBB94D /* ZYPhotoPreviewDeleteViewController.swift */; };
+		090923CBAA709360E3B751923587A6F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		0DF7C5DFCFB030ECD2CAAD01CE49F012 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		0FF30B421F653FA832E707064E0300C9 /* ZYPhotoNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13F472121419ECB19CB7D1F8399FB6 /* ZYPhotoNavigationViewController.swift */; };
+		16A0776FCBE744A03BCD2405767C0F2E /* icon_add_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F66883383ED0B741AFCE4FAD6FE7528 /* icon_add_nor@3x.png */; };
+		1BA0B47951C864B3175ECDEAC6D608A2 /* icon_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AD673A8EB192E96365F3DB4CB5C8E3 /* icon_delete.png */; };
+		1CE0F8D1D8EF95707B53E0754A602851 /* ZYPhotoAlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7018BCB55DC53A44CF6AE24BAB2F0 /* ZYPhotoAlbumListViewController.swift */; };
+		2314791DEF81F5C0AF9F3DAB7B713C3B /* ZYPhotoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A286EA0ACF4C342EC0BF00A30F165 /* ZYPhotoPreviewViewController.swift */; };
+		2912AE46C5B7D734377EDDA65B19191E /* ZYImagePickerLayoutView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A3EC8A23B4D0C10C639A5BC673F2C3A /* ZYImagePickerLayoutView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C0EB8131E7F7F56D874C156A7181367 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2CA9226870203ED889B9358CE9EAC2E9 /* ZYProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A703FBB58E5A6A80EFE24CC9CC712B1E /* ZYProgressView.swift */; };
+		3340802731D60B28636FA8967003086A /* icon_back_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C2A4DA5A2D48C5DB50BC134AF39ACC /* icon_back_white@2x.png */; };
+		3F3D086D5CCCC07BC3A1E1FDF57BC1C2 /* ZYPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C59734E2250EBBD8B55572C8D63DFF3 /* ZYPhotoCollectionViewCell.swift */; };
+		3F3E8E0D14ABAD329D3382E0D870D819 /* ImagePickerLayoutCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59A957CFC0898A5E25CC6A0A574ED73 /* ImagePickerLayoutCollectionViewCell.xib */; };
+		3FC84C6C1A6B6C0378E67C2E7058B5D9 /* ZYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CA1571B9F82C291B94F96BAAE30C52 /* ZYExtension.swift */; };
+		429BA4224006BAAB34A8275AE7F3196C /* album_photo_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6E84D323E798D1E3051A90F224A230 /* album_photo_delete@3x.png */; };
+		581473A444F5A46EFDF4D2B11B115487 /* icon_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A18087AEF52ADF96C2A5A8F9D3AB1C /* icon_delete@3x.png */; };
+		5D9A4D85F68E0ECDD283CAAC1CDB2C09 /* Pods-ZYimagePickerDisplayDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E672A3DC87D23A8D3777CD2F9CC01F4 /* Pods-ZYimagePickerDisplayDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		617065F6900C8A0C552EB4525FE1E90E /* ZYPhotoClipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005E493615AF8405525140068428A524 /* ZYPhotoClipViewController.swift */; };
+		61D34EB02BEC13BA821B142C87D99E3C /* icon_back_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9B121DCAFE7E5557E3078C93BE1890 /* icon_back_white@3x.png */; };
+		65BA7115817B1DD76D1A660C5CD30B82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6DA50C81D4FC4E0F828768D4259BDE71 /* album_select_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 626B47C8E26A76F1696C205F444AC9CD /* album_select_gray@2x.png */; };
+		6E289B0F1870CED3D8887D76539D20D4 /* icon_add_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A0AD360A7D349A34B2275CEFE880C1 /* icon_add_sel.png */; };
+		6F242E8A42B9007D0F13BB82A5ACC4AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		73592CD51127E2C5E7DD4CF361463FE2 /* Pods-ZYimagePickerDisplayDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47856E9235AE336CB8EA427E433F8C43 /* Pods-ZYimagePickerDisplayDemoTests-dummy.m */; };
+		79748F4F856DEF1CF0F032B0DDC8E98F /* PlusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0FC9D3BBBB1B3DD25F195B874F533 /* PlusCollectionViewCell.swift */; };
+		7BA38CC99916B219211986E8A27129F6 /* icon_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F56E6AB491EED8D0B06E032BFD9035B5 /* icon_delete@2x.png */; };
+		7CFF771443816F5193D5A7E1D15D7089 /* Pods-ZYimagePickerDisplayDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBE963EBDCC171ABDD571B88B169EEF /* Pods-ZYimagePickerDisplayDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FAAE43BB92A58393F6D78E9A64C9649 /* ZYImagePickerLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80FC94B5E3519DFFFA500897ECC15F /* ZYImagePickerLayoutView.swift */; };
+		88FA981D3DC79DE4CAF179E5D09CD2C8 /* ZYImagePickerLayoutView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD32E851288C2C9648FAF3394A845421 /* ZYImagePickerLayoutView-dummy.m */; };
+		9268172B27F083D674E40E66F2B431FA /* PlusCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14843F4F85F5A3BAABACAED1DF288DE7 /* PlusCollectionViewCell.xib */; };
+		957C518654CF94637AD690BB7B296BEA /* album_select_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0B55904E27CC6467D7B59EDD1D592D9 /* album_select_gray@3x.png */; };
+		99085BA2D8B030DEC27BED7D306624D8 /* ZYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F92016E0AA6D24026E2AEA106B2CB1 /* ZYBaseViewController.swift */; };
+		9BA86A976CA7F3C6B2756B75534AFBB7 /* ZYPreviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5498766DFA683279BC90E94E03F153D /* ZYPreviewCollectionViewCell.swift */; };
+		9BCBAB4482B5677E7041434D57ECFC6A /* Pods-ZYimagePickerDisplayDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 229BCDC75D251D48BA277AECAF2F26C9 /* Pods-ZYimagePickerDisplayDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EA4BE5EDC68D7A6B72DF188B794B270 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93FBE41416C1733D0E0330196A9C30F /* Config.swift */; };
+		9F03E16EA5544F373C76FA1EA095DCE9 /* ImagePickerLayoutCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC226228B768F51FC41B8F46E82B6CCF /* ImagePickerLayoutCollectionViewCell.swift */; };
+		A020AD1A1DCCE951FDCBBA9883AE1246 /* album_photo_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D37C3E63FEF555D2441504588AFDE9 /* album_photo_delete@2x.png */; };
+		A3FD5AA406E07D96AABEF9148B3C796E /* ZYCachingImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868FF8D534B42063E35F405F747555C /* ZYCachingImageManager.swift */; };
+		A644144B45BEA6C749BAC8A6E7D73B23 /* icon_add_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8576D98140C2C9E68CC3546968FFD99B /* icon_add_nor.png */; };
+		A64DFBEDD32E1FCA6B681496AA19988F /* Pods-ZYimagePickerDisplayDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 557925853C80FF7C9970F39FE05059C9 /* Pods-ZYimagePickerDisplayDemoUITests-dummy.m */; };
+		AD3C38F13CAA7E9CF1A9B457DA92F85B /* album_select_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F07F1BC4AEC61129654843F4C889C33 /* album_select_blue@2x.png */; };
+		BDB6894FC3443D9562504BED8C40DDA6 /* icon_add_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E19639AB413969F6527E2A684ADEFF /* icon_add_sel@3x.png */; };
+		BE2DB74DCFB15D0447B1B9DB036C0354 /* ZYImagePickerAndBrower-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A84DD5404A65352C4BDDA3DE67927E /* ZYImagePickerAndBrower-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C194D0D36637B5A068D23CFAA988CD7A /* album_select_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F46FA89AD1EEF82B6346A1C5F49F47E /* album_select_blue@3x.png */; };
+		DDF34F263DDA69B441A6425743347F93 /* ZYPhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E30AB45E0351A7498397C2581E2C99 /* ZYPhotoAlbumViewController.swift */; };
+		E1A81E2F2AADFBE30FCDA002C8AE8AFC /* ZYPhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7029CE600A8E83599758F7F1F0CE0BFC /* ZYPhotoDataSource.swift */; };
+		E83C21027B50B491F1E1E7B690681FAD /* Pods-ZYimagePickerDisplayDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 644CB33BBF91F6CD04E5F5F814E80E7D /* Pods-ZYimagePickerDisplayDemo-dummy.m */; };
+		EA0970B7C56F443CFBC1ECF23EBEB1E2 /* icon_add_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDDEDC4B491D1F13FF4B1240C8F6AD8 /* icon_add_sel@2x.png */; };
+		F130ED1C69868B5CE7E3C8FC99AB6169 /* ZYImagePickerAndBrower-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EECACDD154D32A3D0930EE9F6B6B501C /* ZYImagePickerAndBrower-dummy.m */; };
+		F2F9BB1C246CDD76DD6F6156271EF653 /* icon_add_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3ADDC09E97820F1B8240A205111B619 /* icon_add_nor@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C2DACFEF2D831F50D22DA7D05215E73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC77B737BDA2DE387D08FFE8E3976926;
+			remoteInfo = ZYImagePickerLayoutView;
+		};
+		96D29F03A20F1E466D15BED7689BAFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E4ED1C5B605F95F6A5F8507EF72376E;
+			remoteInfo = "Pods-ZYimagePickerDisplayDemo";
+		};
+		B2118891C4D28D5F14BA634652B3DCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E4ED1C5B605F95F6A5F8507EF72376E;
+			remoteInfo = "Pods-ZYimagePickerDisplayDemo";
+		};
+		C3C39B3FDB50BFFE8654BC6CD6F70A1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F6FDE09A21DD7D58FEB859B4105F160;
+			remoteInfo = ZYImagePickerAndBrower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005E493615AF8405525140068428A524 /* ZYPhotoClipViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZYPhotoClipViewController.swift; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Controller/Preview/ZYPhotoClipViewController.swift; sourceTree = "<group>"; };
+		059E2466D8F407FF4467EE0677C47C32 /* ZYImagePickerAndBrower.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYImagePickerAndBrower.modulemap; sourceTree = "<group>"; };
+		0C7EAEF9115248B3E382DBE813F10A47 /* Pods_ZYimagePickerDisplayDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYimagePickerDisplayDemoUITests.framework; path = "Pods-ZYimagePickerDisplayDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F07F1BC4AEC61129654843F4C889C33 /* album_select_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "album_select_blue@2x.png"; path = "ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/album_select_blue@2x.png"; sourceTree = "<group>"; };
+		1396CD377CB1D68B26C8751297B183B3 /* Pods-ZYimagePickerDisplayDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYimagePickerDisplayDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		14843F4F85F5A3BAABACAED1DF288DE7 /* PlusCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PlusCollectionViewCell.xib; path = Classes/Cell/PlusCollectionViewCell.xib; sourceTree = "<group>"; };
+		14E30AB45E0351A7498397C2581E2C99 /* ZYPhotoAlbumViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZYPhotoAlbumViewController.swift; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Controller/Album/ZYPhotoAlbumViewController.swift; sourceTree = "<group>"; };
+		185C28750CCF016CC651D7593C5FDF96 /* ZYImagePickerLayoutView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYImagePickerLayoutView.xcconfig; sourceTree = "<group>"; };
+		1E13F472121419ECB19CB7D1F8399FB6 /* ZYPhotoNavigationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZYPhotoNavigationViewController.swift; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Controller/Navigation/ZYPhotoNavigationViewController.swift; sourceTree = "<group>"; };
+		1E672A3DC87D23A8D3777CD2F9CC01F4 /* Pods-ZYimagePickerDisplayDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYimagePickerDisplayDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		21F92016E0AA6D24026E2AEA106B2CB1 /* ZYBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZYBaseViewController.swift; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Controller/ZYBaseViewController.swift; sourceTree = "<group>"; };
+		229BCDC75D251D48BA277AECAF2F26C9 /* Pods-ZYimagePickerDisplayDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYimagePickerDisplayDemo-umbrella.h"; sourceTree = "<group>"; };
+		2616994E2FDD136BC58B521D1220F877 /* ZYImagePickerLayoutView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYImagePickerLayoutView.framework; path = ZYImagePickerLayoutView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBE963EBDCC171ABDD571B88B169EEF /* Pods-ZYimagePickerDisplayDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYimagePickerDisplayDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		366AFB913324FB91DB9F26F7EE92FF31 /* Pods-ZYimagePickerDisplayDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYimagePickerDisplayDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		3F46FA89AD1EEF82B6346A1C5F49F47E /* album_select_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "album_select_blue@3x.png"; path = "ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/album_select_blue@3x.png"; sourceTree = "<group>"; };
+		42CA1571B9F82C291B94F96BAAE30C52 /* ZYExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZYExtension.swift; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Tools/ZYExtension.swift; sourceTree = "<group>"; };
+		45AD673A8EB192E96365F3DB4CB5C8E3 /* icon_delete.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_delete.png; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/icon_delete.png; sourceTree = "<group>"; };
+		47598AA493A4D9A53601909D6F9DE474 /* Pods-ZYimagePickerDisplayDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYimagePickerDisplayDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		47856E9235AE336CB8EA427E433F8C43 /* Pods-ZYimagePickerDisplayDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYimagePickerDisplayDemoTests-dummy.m"; sourceTree = "<group>"; };
+		478F8BC8C01B704818A2761CD8F35810 /* Pods-ZYimagePickerDisplayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYimagePickerDisplayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4B867B73866A521222A38F63DD38FACD /* Pods-ZYimagePickerDisplayDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYimagePickerDisplayDemoTests-Info.plist"; sourceTree = "<group>"; };
+		4EF06E431C3A8A131E3179F2B1F84B6E /* Pods-ZYimagePickerDisplayDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYimagePickerDisplayDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F66883383ED0B741AFCE4FAD6FE7528 /* icon_add_nor@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_add_nor@3x.png"; path = "ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/icon_add_nor@3x.png"; sourceTree = "<group>"; };
+		557925853C80FF7C9970F39FE05059C9 /* Pods-ZYimagePickerDisplayDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYimagePickerDisplayDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		5667DE57769D063371FD756F2BA82E85 /* ZYImagePickerAndBrower.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYImagePickerAndBrower.xcconfig; sourceTree = "<group>"; };
+		5868FF8D534B42063E35F405F747555C /* ZYCachingImageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZYCachingImageManager.swift; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Tools/ZYCachingImageManager.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A3EC8A23B4D0C10C639A5BC673F2C3A /* ZYImagePickerLayoutView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYImagePickerLayoutView-umbrella.h"; sourceTree = "<group>"; };
+		5C59734E2250EBBD8B55572C8D63DFF3 /* ZYPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZYPhotoCollectionViewCell.swift; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/View/ZYPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		60AE023D62DBCC2AA39E46150591D1EA /* Pods-ZYimagePickerDisplayDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYimagePickerDisplayDemo-frameworks.sh"; sourceTree = "<group>"; };
+		624FD830CE62BA93054791F7ECDE4E6F /* ZYImagePickerAndBrower-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYImagePickerAndBrower-prefix.pch"; sourceTree = "<group>"; };
+		626B47C8E26A76F1696C205F444AC9CD /* album_select_gray@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "album_select_gray@2x.png"; path = "ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/album_select_gray@2x.png"; sourceTree = "<group>"; };
+		644CB33BBF91F6CD04E5F5F814E80E7D /* Pods-ZYimagePickerDisplayDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYimagePickerDisplayDemo-dummy.m"; sourceTree = "<group>"; };
+		65A0AD360A7D349A34B2275CEFE880C1 /* icon_add_sel.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_add_sel.png; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/icon_add_sel.png; sourceTree = "<group>"; };
+		6E7B5ABCB5EB7FB24597DD16A284F3AF /* ZYImagePickerAndBrower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYImagePickerAndBrower.framework; path = ZYImagePickerAndBrower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7029CE600A8E83599758F7F1F0CE0BFC /* ZYPhotoDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZYPhotoDataSource.swift; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Model/ZYPhotoDataSource.swift; sourceTree = "<group>"; };
+		76C2A4DA5A2D48C5DB50BC134AF39ACC /* icon_back_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_back_white@2x.png"; path = "ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/icon_back_white@2x.png"; sourceTree = "<group>"; };
+		785C69EECAA8229496235D25A691AB63 /* Pods-ZYimagePickerDisplayDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYimagePickerDisplayDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C80FC94B5E3519DFFFA500897ECC15F /* ZYImagePickerLayoutView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZYImagePickerLayoutView.swift; path = Classes/ZYImagePickerLayoutView.swift; sourceTree = "<group>"; };
+		7E6762157AA3DCB2A7553B7CE3DBA24C /* Pods-ZYimagePickerDisplayDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYimagePickerDisplayDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83707A36EDE19B875797C32FCB27753A /* Pods-ZYimagePickerDisplayDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYimagePickerDisplayDemoTests.modulemap"; sourceTree = "<group>"; };
+		84C0FC9D3BBBB1B3DD25F195B874F533 /* PlusCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlusCollectionViewCell.swift; path = Classes/Cell/PlusCollectionViewCell.swift; sourceTree = "<group>"; };
+		8537C2D30093B7D3BF58B8A909F8EDBE /* Pods-ZYimagePickerDisplayDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYimagePickerDisplayDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		8576D98140C2C9E68CC3546968FFD99B /* icon_add_nor.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_add_nor.png; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/icon_add_nor.png; sourceTree = "<group>"; };
+		8D00797C9B23D50F62AC9F953F7F19FA /* Pods-ZYimagePickerDisplayDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYimagePickerDisplayDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D87F2F52AE4B4685463A495355E08F6 /* Pods_ZYimagePickerDisplayDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYimagePickerDisplayDemoTests.framework; path = "Pods-ZYimagePickerDisplayDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C58B1F3B1696C1F5BE08DDC140E791 /* ZYImagePickerAndBrower-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZYImagePickerAndBrower-Info.plist"; sourceTree = "<group>"; };
+		938AB17E49C8173E9B18DDD44FCB210C /* Pods_ZYimagePickerDisplayDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYimagePickerDisplayDemo.framework; path = "Pods-ZYimagePickerDisplayDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BFE2A92508767BE100E10902D306802 /* Pods-ZYimagePickerDisplayDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYimagePickerDisplayDemoUITests.modulemap"; sourceTree = "<group>"; };
+		A1D37C3E63FEF555D2441504588AFDE9 /* album_photo_delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "album_photo_delete@2x.png"; path = "ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/album_photo_delete@2x.png"; sourceTree = "<group>"; };
+		A703FBB58E5A6A80EFE24CC9CC712B1E /* ZYProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZYProgressView.swift; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/View/ZYProgressView.swift; sourceTree = "<group>"; };
+		A80EF4665B03C3D98A8C75E64D8514D1 /* ZYImagePickerLayoutView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYImagePickerLayoutView.modulemap; sourceTree = "<group>"; };
+		AB9B121DCAFE7E5557E3078C93BE1890 /* icon_back_white@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_back_white@3x.png"; path = "ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/icon_back_white@3x.png"; sourceTree = "<group>"; };
+		B031CAEBA3E65D917F2153A9D73F2C69 /* Pods-ZYimagePickerDisplayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYimagePickerDisplayDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B08A286EA0ACF4C342EC0BF00A30F165 /* ZYPhotoPreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZYPhotoPreviewViewController.swift; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Controller/Preview/ZYPhotoPreviewViewController.swift; sourceTree = "<group>"; };
+		B0F7018BCB55DC53A44CF6AE24BAB2F0 /* ZYPhotoAlbumListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZYPhotoAlbumListViewController.swift; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Controller/Album/ZYPhotoAlbumListViewController.swift; sourceTree = "<group>"; };
+		B4E19639AB413969F6527E2A684ADEFF /* icon_add_sel@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_add_sel@3x.png"; path = "ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/icon_add_sel@3x.png"; sourceTree = "<group>"; };
+		B6A18087AEF52ADF96C2A5A8F9D3AB1C /* icon_delete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_delete@3x.png"; path = "ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/icon_delete@3x.png"; sourceTree = "<group>"; };
+		BA62B5731EA75FFDF879058E56BAD9CA /* ZYImagePickerLayoutView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYImagePickerLayoutView-prefix.pch"; sourceTree = "<group>"; };
+		BC226228B768F51FC41B8F46E82B6CCF /* ImagePickerLayoutCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePickerLayoutCollectionViewCell.swift; path = Classes/Cell/ImagePickerLayoutCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF2CE52036F4AE9396C71CB0246950AF /* ZYImagePickerLayoutView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZYImagePickerLayoutView-Info.plist"; sourceTree = "<group>"; };
+		C0B55904E27CC6467D7B59EDD1D592D9 /* album_select_gray@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "album_select_gray@3x.png"; path = "ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/album_select_gray@3x.png"; sourceTree = "<group>"; };
+		C28F473818C81C14E5F892B5B0CBB94D /* ZYPhotoPreviewDeleteViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZYPhotoPreviewDeleteViewController.swift; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Controller/Preview/ZYPhotoPreviewDeleteViewController.swift; sourceTree = "<group>"; };
+		CB8C6D63B96B3C9140A3BC1867098AB8 /* Pods-ZYimagePickerDisplayDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYimagePickerDisplayDemo-Info.plist"; sourceTree = "<group>"; };
+		D59A957CFC0898A5E25CC6A0A574ED73 /* ImagePickerLayoutCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ImagePickerLayoutCollectionViewCell.xib; path = Classes/Cell/ImagePickerLayoutCollectionViewCell.xib; sourceTree = "<group>"; };
+		DDDDEDC4B491D1F13FF4B1240C8F6AD8 /* icon_add_sel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_add_sel@2x.png"; path = "ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/icon_add_sel@2x.png"; sourceTree = "<group>"; };
+		E0A84DD5404A65352C4BDDA3DE67927E /* ZYImagePickerAndBrower-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYImagePickerAndBrower-umbrella.h"; sourceTree = "<group>"; };
+		E3ADDC09E97820F1B8240A205111B619 /* icon_add_nor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_add_nor@2x.png"; path = "ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/icon_add_nor@2x.png"; sourceTree = "<group>"; };
+		E66003E0B43991125C3987D3300D5285 /* Pods-ZYimagePickerDisplayDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYimagePickerDisplayDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E93FBE41416C1733D0E0330196A9C30F /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Config.swift; sourceTree = "<group>"; };
+		EBCE168142D0AD9696313111F1ECDD71 /* Pods-ZYimagePickerDisplayDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYimagePickerDisplayDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EECACDD154D32A3D0930EE9F6B6B501C /* ZYImagePickerAndBrower-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYImagePickerAndBrower-dummy.m"; sourceTree = "<group>"; };
+		EF6E84D323E798D1E3051A90F224A230 /* album_photo_delete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "album_photo_delete@3x.png"; path = "ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/album_photo_delete@3x.png"; sourceTree = "<group>"; };
+		F16421D9B099BCD60F39B690DE2AB33F /* Pods-ZYimagePickerDisplayDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYimagePickerDisplayDemo.modulemap"; sourceTree = "<group>"; };
+		F5498766DFA683279BC90E94E03F153D /* ZYPreviewCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZYPreviewCollectionViewCell.swift; path = ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/View/ZYPreviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		F56E6AB491EED8D0B06E032BFD9035B5 /* icon_delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_delete@2x.png"; path = "ZYImagePickerAndBrower/ZYImagePickerAndBrowerKit/Resource/icon_delete@2x.png"; sourceTree = "<group>"; };
+		FB0CCED000A3598BD45333BA2E68E8AE /* Pods-ZYimagePickerDisplayDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYimagePickerDisplayDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD32E851288C2C9648FAF3394A845421 /* ZYImagePickerLayoutView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYImagePickerLayoutView-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A005D8B0C2AF19ED383749B94C9FFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F242E8A42B9007D0F13BB82A5ACC4AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C126501F7D163E4A5FA0B5E7330D1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF7C5DFCFB030ECD2CAAD01CE49F012 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7F5D3760B76B3E75D6C3F441A93E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090923CBAA709360E3B751923587A6F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16353F5E2AD8D53F5A3C24B5D656245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BA7115817B1DD76D1A660C5CD30B82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBCF2BBF2091FC10391712AE0EDDEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0EB8131E7F7F56D874C156A7181367 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D4E8ABDEA5BD1673D382A05C58E2B79 /* ZYImagePickerLayoutView */ = {
+			isa = PBXGroup;
+			children = (
+				BC226228B768F51FC41B8F46E82B6CCF /* ImagePickerLayoutCollectionViewCell.swift */,
+				84C0FC9D3BBBB1B3DD25F195B874F533 /* PlusCollectionViewCell.swift */,
+				7C80FC94B5E3519DFFFA500897ECC15F /* ZYImagePickerLayoutView.swift */,
+				B77F31366CA42AEFA371DFF37DEE8BB5 /* Resources */,
+				28EF7ABB8623BF39B7AAF09F53B97507 /* Support Files */,
+			);
+			name = ZYImagePickerLayoutView;
+			path = ZYImagePickerLayoutView;
+			sourceTree = "<group>";
+		};
+		1A32F6B6AD87800E12431A06DD27D5DD /* Pods-ZYimagePickerDisplayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE2A92508767BE100E10902D306802 /* Pods-ZYimagePickerDisplayDemoUITests.modulemap */,
+				785C69EECAA8229496235D25A691AB63 /* Pods-ZYimagePickerDisplayDemoUITests-acknowledgements.markdown */,
+				7E6762157AA3DCB2A7553B7CE3DBA24C /* Pods-ZYimagePickerDisplayDemoUITests-acknowledgements.plist */,
+				557925853C80FF7C9970F39FE05059C9 /* Pods-ZYimagePickerDisplayDemoUITests-dummy.m */,
+				366AFB913324FB91DB9F26F7EE92FF31 /* Pods-ZYimagePickerDisplayDemoUITests-Info.plist */,
+				1E672A3DC87D23A8D3777CD2F9CC01F4 /* Pods-ZYimagePickerDisplayDemoUITests-umbrella.h */,
+				1396CD377CB1D68B26C8751297B183B3 /* Pods-ZYimagePickerDisplayDemoUITests.debug.xcconfig */,
+				47598AA493A4D9A53601909D6F9DE474 /* Pods-ZYimagePickerDisplayDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-ZYimagePickerDisplayDemoUITests";
+			path = "Target Support Files/Pods-ZYimagePickerDisplayDemoUITests";
+			sourceTree = "<group>";
+		};
+		1B491C2A361C6FC359A57C2CA500395C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1D37C3E63FEF555D2441504588AFDE9 /* album_photo_delete@2x.png */,
+				EF6E84D323E798D1E3051A90F224A230 /* album_photo_delete@3x.png */,
+				0F07F1BC4AEC61129654843F4C889C33 /* album_select_blue@2x.png */,
+				3F46FA89AD1EEF82B6346A1C5F49F47E /* album_select_blue@3x.png */,
+				626B47C8E26A76F1696C205F444AC9CD /* album_select_gray@2x.png */,
+				C0B55904E27CC6467D7B59EDD1D592D9 /* album_select_gray@3x.png */,
+				8576D98140C2C9E68CC3546968FFD99B /* icon_add_nor.png */,
+				E3ADDC09E97820F1B8240A205111B619 /* icon_add_nor@2x.png */,
+				4F66883383ED0B741AFCE4FAD6FE7528 /* icon_add_nor@3x.png */,
+				65A0AD360A7D349A34B2275CEFE880C1 /* icon_add_sel.png */,
+				DDDDEDC4B491D1F13FF4B1240C8F6AD8 /* icon_add_sel@2x.png */,
+				B4E19639AB413969F6527E2A684ADEFF /* icon_add_sel@3x.png */,
+				76C2A4DA5A2D48C5DB50BC134AF39ACC /* icon_back_white@2x.png */,
+				AB9B121DCAFE7E5557E3078C93BE1890 /* icon_back_white@3x.png */,
+				45AD673A8EB192E96365F3DB4CB5C8E3 /* icon_delete.png */,
+				F56E6AB491EED8D0B06E032BFD9035B5 /* icon_delete@2x.png */,
+				B6A18087AEF52ADF96C2A5A8F9D3AB1C /* icon_delete@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1F3BFEB2BED9DCD4FDE67F263BA9684F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BB06E537FF118DD2E0E891D7FFB5328 /* ZYImagePickerAndBrower */,
+				0D4E8ABDEA5BD1673D382A05C58E2B79 /* ZYImagePickerLayoutView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		21FE4B8507FBA587DA89C46AB3DC8991 /* Pods-ZYimagePickerDisplayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F16421D9B099BCD60F39B690DE2AB33F /* Pods-ZYimagePickerDisplayDemo.modulemap */,
+				E66003E0B43991125C3987D3300D5285 /* Pods-ZYimagePickerDisplayDemo-acknowledgements.markdown */,
+				8537C2D30093B7D3BF58B8A909F8EDBE /* Pods-ZYimagePickerDisplayDemo-acknowledgements.plist */,
+				644CB33BBF91F6CD04E5F5F814E80E7D /* Pods-ZYimagePickerDisplayDemo-dummy.m */,
+				60AE023D62DBCC2AA39E46150591D1EA /* Pods-ZYimagePickerDisplayDemo-frameworks.sh */,
+				CB8C6D63B96B3C9140A3BC1867098AB8 /* Pods-ZYimagePickerDisplayDemo-Info.plist */,
+				229BCDC75D251D48BA277AECAF2F26C9 /* Pods-ZYimagePickerDisplayDemo-umbrella.h */,
+				478F8BC8C01B704818A2761CD8F35810 /* Pods-ZYimagePickerDisplayDemo.debug.xcconfig */,
+				B031CAEBA3E65D917F2153A9D73F2C69 /* Pods-ZYimagePickerDisplayDemo.release.xcconfig */,
+			);
+			name = "Pods-ZYimagePickerDisplayDemo";
+			path = "Target Support Files/Pods-ZYimagePickerDisplayDemo";
+			sourceTree = "<group>";
+		};
+		249E5E3E4378CF692B2382CB01356DDB /* Pods-ZYimagePickerDisplayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				83707A36EDE19B875797C32FCB27753A /* Pods-ZYimagePickerDisplayDemoTests.modulemap */,
+				8D00797C9B23D50F62AC9F953F7F19FA /* Pods-ZYimagePickerDisplayDemoTests-acknowledgements.markdown */,
+				FB0CCED000A3598BD45333BA2E68E8AE /* Pods-ZYimagePickerDisplayDemoTests-acknowledgements.plist */,
+				47856E9235AE336CB8EA427E433F8C43 /* Pods-ZYimagePickerDisplayDemoTests-dummy.m */,
+				4B867B73866A521222A38F63DD38FACD /* Pods-ZYimagePickerDisplayDemoTests-Info.plist */,
+				2FBE963EBDCC171ABDD571B88B169EEF /* Pods-ZYimagePickerDisplayDemoTests-umbrella.h */,
+				EBCE168142D0AD9696313111F1ECDD71 /* Pods-ZYimagePickerDisplayDemoTests.debug.xcconfig */,
+				4EF06E431C3A8A131E3179F2B1F84B6E /* Pods-ZYimagePickerDisplayDemoTests.release.xcconfig */,
+			);
+			name = "Pods-ZYimagePickerDisplayDemoTests";
+			path = "Target Support Files/Pods-ZYimagePickerDisplayDemoTests";
+			sourceTree = "<group>";
+		};
+		28EF7ABB8623BF39B7AAF09F53B97507 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A80EF4665B03C3D98A8C75E64D8514D1 /* ZYImagePickerLayoutView.modulemap */,
+				185C28750CCF016CC651D7593C5FDF96 /* ZYImagePickerLayoutView.xcconfig */,
+				FD32E851288C2C9648FAF3394A845421 /* ZYImagePickerLayoutView-dummy.m */,
+				BF2CE52036F4AE9396C71CB0246950AF /* ZYImagePickerLayoutView-Info.plist */,
+				BA62B5731EA75FFDF879058E56BAD9CA /* ZYImagePickerLayoutView-prefix.pch */,
+				5A3EC8A23B4D0C10C639A5BC673F2C3A /* ZYImagePickerLayoutView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZYImagePickerLayoutView";
+			sourceTree = "<group>";
+		};
+		53938FB303C3E8D8AF631C93DF25287A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				938AB17E49C8173E9B18DDD44FCB210C /* Pods_ZYimagePickerDisplayDemo.framework */,
+				8D87F2F52AE4B4685463A495355E08F6 /* Pods_ZYimagePickerDisplayDemoTests.framework */,
+				0C7EAEF9115248B3E382DBE813F10A47 /* Pods_ZYimagePickerDisplayDemoUITests.framework */,
+				6E7B5ABCB5EB7FB24597DD16A284F3AF /* ZYImagePickerAndBrower.framework */,
+				2616994E2FDD136BC58B521D1220F877 /* ZYImagePickerLayoutView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6BB06E537FF118DD2E0E891D7FFB5328 /* ZYImagePickerAndBrower */ = {
+			isa = PBXGroup;
+			children = (
+				E93FBE41416C1733D0E0330196A9C30F /* Config.swift */,
+				21F92016E0AA6D24026E2AEA106B2CB1 /* ZYBaseViewController.swift */,
+				5868FF8D534B42063E35F405F747555C /* ZYCachingImageManager.swift */,
+				42CA1571B9F82C291B94F96BAAE30C52 /* ZYExtension.swift */,
+				B0F7018BCB55DC53A44CF6AE24BAB2F0 /* ZYPhotoAlbumListViewController.swift */,
+				14E30AB45E0351A7498397C2581E2C99 /* ZYPhotoAlbumViewController.swift */,
+				005E493615AF8405525140068428A524 /* ZYPhotoClipViewController.swift */,
+				5C59734E2250EBBD8B55572C8D63DFF3 /* ZYPhotoCollectionViewCell.swift */,
+				7029CE600A8E83599758F7F1F0CE0BFC /* ZYPhotoDataSource.swift */,
+				1E13F472121419ECB19CB7D1F8399FB6 /* ZYPhotoNavigationViewController.swift */,
+				C28F473818C81C14E5F892B5B0CBB94D /* ZYPhotoPreviewDeleteViewController.swift */,
+				B08A286EA0ACF4C342EC0BF00A30F165 /* ZYPhotoPreviewViewController.swift */,
+				F5498766DFA683279BC90E94E03F153D /* ZYPreviewCollectionViewCell.swift */,
+				A703FBB58E5A6A80EFE24CC9CC712B1E /* ZYProgressView.swift */,
+				1B491C2A361C6FC359A57C2CA500395C /* Resources */,
+				E694E15D7A9314C5A28779B2CBC59685 /* Support Files */,
+			);
+			name = ZYImagePickerAndBrower;
+			path = ZYImagePickerAndBrower;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1F3BFEB2BED9DCD4FDE67F263BA9684F /* Pods */,
+				53938FB303C3E8D8AF631C93DF25287A /* Products */,
+				91F30D06ADD353749259545C66CBB6BA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91F30D06ADD353749259545C66CBB6BA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21FE4B8507FBA587DA89C46AB3DC8991 /* Pods-ZYimagePickerDisplayDemo */,
+				249E5E3E4378CF692B2382CB01356DDB /* Pods-ZYimagePickerDisplayDemoTests */,
+				1A32F6B6AD87800E12431A06DD27D5DD /* Pods-ZYimagePickerDisplayDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B77F31366CA42AEFA371DFF37DEE8BB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D59A957CFC0898A5E25CC6A0A574ED73 /* ImagePickerLayoutCollectionViewCell.xib */,
+				14843F4F85F5A3BAABACAED1DF288DE7 /* PlusCollectionViewCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E694E15D7A9314C5A28779B2CBC59685 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				059E2466D8F407FF4467EE0677C47C32 /* ZYImagePickerAndBrower.modulemap */,
+				5667DE57769D063371FD756F2BA82E85 /* ZYImagePickerAndBrower.xcconfig */,
+				EECACDD154D32A3D0930EE9F6B6B501C /* ZYImagePickerAndBrower-dummy.m */,
+				90C58B1F3B1696C1F5BE08DDC140E791 /* ZYImagePickerAndBrower-Info.plist */,
+				624FD830CE62BA93054791F7ECDE4E6F /* ZYImagePickerAndBrower-prefix.pch */,
+				E0A84DD5404A65352C4BDDA3DE67927E /* ZYImagePickerAndBrower-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZYImagePickerAndBrower";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FE5CC254C80F73B2FB0ECE1A8C3B57A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2DB74DCFB15D0447B1B9DB036C0354 /* ZYImagePickerAndBrower-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EFD25AD7CAEE85A536B728020379BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2912AE46C5B7D734377EDDA65B19191E /* ZYImagePickerLayoutView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F0BFC39A5C9A06D877D148640F1A12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFF771443816F5193D5A7E1D15D7089 /* Pods-ZYimagePickerDisplayDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60148B284C487276D142D7A3C7D7002 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCBAB4482B5677E7041434D57ECFC6A /* Pods-ZYimagePickerDisplayDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32DBE0032FB46490BE6DE68AC6D938C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9A4D85F68E0ECDD283CAAC1CDB2C09 /* Pods-ZYimagePickerDisplayDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67723FACF33EC5E5892DE127C193FE71 /* Pods-ZYimagePickerDisplayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 081AA9B39AA17748436E56870BB2B5C2 /* Build configuration list for PBXNativeTarget "Pods-ZYimagePickerDisplayDemoUITests" */;
+			buildPhases = (
+				C32DBE0032FB46490BE6DE68AC6D938C /* Headers */,
+				A502F60E5306660C6B908C47C51B861D /* Sources */,
+				C16353F5E2AD8D53F5A3C24B5D656245 /* Frameworks */,
+				C48169FD8AF149A7B3BA5975E27E04C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82E50526909B07674C0A76221853FA12 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYimagePickerDisplayDemoUITests";
+			productName = "Pods-ZYimagePickerDisplayDemoUITests";
+			productReference = 0C7EAEF9115248B3E382DBE813F10A47 /* Pods_ZYimagePickerDisplayDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F6FDE09A21DD7D58FEB859B4105F160 /* ZYImagePickerAndBrower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB3513A71BB432B2477F03EAC1CC6AA /* Build configuration list for PBXNativeTarget "ZYImagePickerAndBrower" */;
+			buildPhases = (
+				2FE5CC254C80F73B2FB0ECE1A8C3B57A /* Headers */,
+				C9C34E85B7710E3A3F18987F49D61A29 /* Sources */,
+				7A7F5D3760B76B3E75D6C3F441A93E66 /* Frameworks */,
+				DC921C2382CFB95356B6D947723375A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYImagePickerAndBrower;
+			productName = ZYImagePickerAndBrower;
+			productReference = 6E7B5ABCB5EB7FB24597DD16A284F3AF /* ZYImagePickerAndBrower.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E4ED1C5B605F95F6A5F8507EF72376E /* Pods-ZYimagePickerDisplayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD136A4E9AED252DC32F85FC3E39DCF /* Build configuration list for PBXNativeTarget "Pods-ZYimagePickerDisplayDemo" */;
+			buildPhases = (
+				B60148B284C487276D142D7A3C7D7002 /* Headers */,
+				64E6B7F3B1EAB6ECEE0BE183F88B5835 /* Sources */,
+				FBBCF2BBF2091FC10391712AE0EDDEDE /* Frameworks */,
+				70B43273BC06764002FADDBD3A3A3D3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				683426033E1E7F299BD4DCA388F2634D /* PBXTargetDependency */,
+				8DA471E6061B8DF48C97AB6DA0F74897 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYimagePickerDisplayDemo";
+			productName = "Pods-ZYimagePickerDisplayDemo";
+			productReference = 938AB17E49C8173E9B18DDD44FCB210C /* Pods_ZYimagePickerDisplayDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		900CF4B7448C0D1EDD52376999CB00FA /* Pods-ZYimagePickerDisplayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7081D4F5DB7452089E7FDDE7A6F3FE74 /* Build configuration list for PBXNativeTarget "Pods-ZYimagePickerDisplayDemoTests" */;
+			buildPhases = (
+				82F0BFC39A5C9A06D877D148640F1A12 /* Headers */,
+				FA434AAB07E701E66DCBD2AB0FAA0B98 /* Sources */,
+				1C126501F7D163E4A5FA0B5E7330D1D4 /* Frameworks */,
+				C4BAEA17E5CAED826D757E03667FA895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312258F5389B91927384B42CBA618348 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYimagePickerDisplayDemoTests";
+			productName = "Pods-ZYimagePickerDisplayDemoTests";
+			productReference = 8D87F2F52AE4B4685463A495355E08F6 /* Pods_ZYimagePickerDisplayDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC77B737BDA2DE387D08FFE8E3976926 /* ZYImagePickerLayoutView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EB8574088D62839212E60CFDE4F8817 /* Build configuration list for PBXNativeTarget "ZYImagePickerLayoutView" */;
+			buildPhases = (
+				66EFD25AD7CAEE85A536B728020379BF /* Headers */,
+				22719C5F82361612856D2BB445A15696 /* Sources */,
+				1A005D8B0C2AF19ED383749B94C9FFC7 /* Frameworks */,
+				853D4EC5CB51829C00E81926F1C0C85D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYImagePickerLayoutView;
+			productName = ZYImagePickerLayoutView;
+			productReference = 2616994E2FDD136BC58B521D1220F877 /* ZYImagePickerLayoutView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 53938FB303C3E8D8AF631C93DF25287A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E4ED1C5B605F95F6A5F8507EF72376E /* Pods-ZYimagePickerDisplayDemo */,
+				900CF4B7448C0D1EDD52376999CB00FA /* Pods-ZYimagePickerDisplayDemoTests */,
+				67723FACF33EC5E5892DE127C193FE71 /* Pods-ZYimagePickerDisplayDemoUITests */,
+				7F6FDE09A21DD7D58FEB859B4105F160 /* ZYImagePickerAndBrower */,
+				AC77B737BDA2DE387D08FFE8E3976926 /* ZYImagePickerLayoutView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70B43273BC06764002FADDBD3A3A3D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853D4EC5CB51829C00E81926F1C0C85D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3E8E0D14ABAD329D3382E0D870D819 /* ImagePickerLayoutCollectionViewCell.xib in Resources */,
+				9268172B27F083D674E40E66F2B431FA /* PlusCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48169FD8AF149A7B3BA5975E27E04C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BAEA17E5CAED826D757E03667FA895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC921C2382CFB95356B6D947723375A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A020AD1A1DCCE951FDCBBA9883AE1246 /* album_photo_delete@2x.png in Resources */,
+				429BA4224006BAAB34A8275AE7F3196C /* album_photo_delete@3x.png in Resources */,
+				AD3C38F13CAA7E9CF1A9B457DA92F85B /* album_select_blue@2x.png in Resources */,
+				C194D0D36637B5A068D23CFAA988CD7A /* album_select_blue@3x.png in Resources */,
+				6DA50C81D4FC4E0F828768D4259BDE71 /* album_select_gray@2x.png in Resources */,
+				957C518654CF94637AD690BB7B296BEA /* album_select_gray@3x.png in Resources */,
+				A644144B45BEA6C749BAC8A6E7D73B23 /* icon_add_nor.png in Resources */,
+				F2F9BB1C246CDD76DD6F6156271EF653 /* icon_add_nor@2x.png in Resources */,
+				16A0776FCBE744A03BCD2405767C0F2E /* icon_add_nor@3x.png in Resources */,
+				6E289B0F1870CED3D8887D76539D20D4 /* icon_add_sel.png in Resources */,
+				EA0970B7C56F443CFBC1ECF23EBEB1E2 /* icon_add_sel@2x.png in Resources */,
+				BDB6894FC3443D9562504BED8C40DDA6 /* icon_add_sel@3x.png in Resources */,
+				3340802731D60B28636FA8967003086A /* icon_back_white@2x.png in Resources */,
+				61D34EB02BEC13BA821B142C87D99E3C /* icon_back_white@3x.png in Resources */,
+				1BA0B47951C864B3175ECDEAC6D608A2 /* icon_delete.png in Resources */,
+				7BA38CC99916B219211986E8A27129F6 /* icon_delete@2x.png in Resources */,
+				581473A444F5A46EFDF4D2B11B115487 /* icon_delete@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22719C5F82361612856D2BB445A15696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F03E16EA5544F373C76FA1EA095DCE9 /* ImagePickerLayoutCollectionViewCell.swift in Sources */,
+				79748F4F856DEF1CF0F032B0DDC8E98F /* PlusCollectionViewCell.swift in Sources */,
+				88FA981D3DC79DE4CAF179E5D09CD2C8 /* ZYImagePickerLayoutView-dummy.m in Sources */,
+				7FAAE43BB92A58393F6D78E9A64C9649 /* ZYImagePickerLayoutView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E6B7F3B1EAB6ECEE0BE183F88B5835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83C21027B50B491F1E1E7B690681FAD /* Pods-ZYimagePickerDisplayDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A502F60E5306660C6B908C47C51B861D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64DFBEDD32E1FCA6B681496AA19988F /* Pods-ZYimagePickerDisplayDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C34E85B7710E3A3F18987F49D61A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA4BE5EDC68D7A6B72DF188B794B270 /* Config.swift in Sources */,
+				99085BA2D8B030DEC27BED7D306624D8 /* ZYBaseViewController.swift in Sources */,
+				A3FD5AA406E07D96AABEF9148B3C796E /* ZYCachingImageManager.swift in Sources */,
+				3FC84C6C1A6B6C0378E67C2E7058B5D9 /* ZYExtension.swift in Sources */,
+				F130ED1C69868B5CE7E3C8FC99AB6169 /* ZYImagePickerAndBrower-dummy.m in Sources */,
+				1CE0F8D1D8EF95707B53E0754A602851 /* ZYPhotoAlbumListViewController.swift in Sources */,
+				DDF34F263DDA69B441A6425743347F93 /* ZYPhotoAlbumViewController.swift in Sources */,
+				617065F6900C8A0C552EB4525FE1E90E /* ZYPhotoClipViewController.swift in Sources */,
+				3F3D086D5CCCC07BC3A1E1FDF57BC1C2 /* ZYPhotoCollectionViewCell.swift in Sources */,
+				E1A81E2F2AADFBE30FCDA002C8AE8AFC /* ZYPhotoDataSource.swift in Sources */,
+				0FF30B421F653FA832E707064E0300C9 /* ZYPhotoNavigationViewController.swift in Sources */,
+				04A6AC19B718561C8929CC396F9C2D6B /* ZYPhotoPreviewDeleteViewController.swift in Sources */,
+				2314791DEF81F5C0AF9F3DAB7B713C3B /* ZYPhotoPreviewViewController.swift in Sources */,
+				9BA86A976CA7F3C6B2756B75534AFBB7 /* ZYPreviewCollectionViewCell.swift in Sources */,
+				2CA9226870203ED889B9358CE9EAC2E9 /* ZYProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA434AAB07E701E66DCBD2AB0FAA0B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73592CD51127E2C5E7DD4CF361463FE2 /* Pods-ZYimagePickerDisplayDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		312258F5389B91927384B42CBA618348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZYimagePickerDisplayDemo";
+			target = 8E4ED1C5B605F95F6A5F8507EF72376E /* Pods-ZYimagePickerDisplayDemo */;
+			targetProxy = B2118891C4D28D5F14BA634652B3DCAC /* PBXContainerItemProxy */;
+		};
+		683426033E1E7F299BD4DCA388F2634D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZYImagePickerAndBrower;
+			target = 7F6FDE09A21DD7D58FEB859B4105F160 /* ZYImagePickerAndBrower */;
+			targetProxy = C3C39B3FDB50BFFE8654BC6CD6F70A1F /* PBXContainerItemProxy */;
+		};
+		82E50526909B07674C0A76221853FA12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZYimagePickerDisplayDemo";
+			target = 8E4ED1C5B605F95F6A5F8507EF72376E /* Pods-ZYimagePickerDisplayDemo */;
+			targetProxy = 96D29F03A20F1E466D15BED7689BAFDF /* PBXContainerItemProxy */;
+		};
+		8DA471E6061B8DF48C97AB6DA0F74897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZYImagePickerLayoutView;
+			target = AC77B737BDA2DE387D08FFE8E3976926 /* ZYImagePickerLayoutView */;
+			targetProxy = 2C2DACFEF2D831F50D22DA7D05215E73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		007F1066051A467FBEB0038594E9D7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		03CFD34F96431915DB20462EA5DB861F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185C28750CCF016CC651D7593C5FDF96 /* ZYImagePickerLayoutView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYImagePickerLayoutView/ZYImagePickerLayoutView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYImagePickerLayoutView/ZYImagePickerLayoutView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZYImagePickerLayoutView/ZYImagePickerLayoutView.modulemap";
+				PRODUCT_MODULE_NAME = ZYImagePickerLayoutView;
+				PRODUCT_NAME = ZYImagePickerLayoutView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17936CDD36A7DC1BA07B4EAF203E48C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5667DE57769D063371FD756F2BA82E85 /* ZYImagePickerAndBrower.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYImagePickerAndBrower/ZYImagePickerAndBrower-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYImagePickerAndBrower/ZYImagePickerAndBrower-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZYImagePickerAndBrower/ZYImagePickerAndBrower.modulemap";
+				PRODUCT_MODULE_NAME = ZYImagePickerAndBrower;
+				PRODUCT_NAME = ZYImagePickerAndBrower;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		336CF1C611A1FDD6F5BA06C8041A40BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47598AA493A4D9A53601909D6F9DE474 /* Pods-ZYimagePickerDisplayDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYimagePickerDisplayDemoUITests/Pods-ZYimagePickerDisplayDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYimagePickerDisplayDemoUITests/Pods-ZYimagePickerDisplayDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63F3326A44EA34201ACD29EA9FB097F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478F8BC8C01B704818A2761CD8F35810 /* Pods-ZYimagePickerDisplayDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYimagePickerDisplayDemo/Pods-ZYimagePickerDisplayDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYimagePickerDisplayDemo/Pods-ZYimagePickerDisplayDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B6F5A7317700A5421373A4353BC1842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185C28750CCF016CC651D7593C5FDF96 /* ZYImagePickerLayoutView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYImagePickerLayoutView/ZYImagePickerLayoutView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYImagePickerLayoutView/ZYImagePickerLayoutView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZYImagePickerLayoutView/ZYImagePickerLayoutView.modulemap";
+				PRODUCT_MODULE_NAME = ZYImagePickerLayoutView;
+				PRODUCT_NAME = ZYImagePickerLayoutView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C37F09A956D0C7AD6E001947F0CFFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBCE168142D0AD9696313111F1ECDD71 /* Pods-ZYimagePickerDisplayDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYimagePickerDisplayDemoTests/Pods-ZYimagePickerDisplayDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYimagePickerDisplayDemoTests/Pods-ZYimagePickerDisplayDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B04AE6234D40BC7BE535944C19A3C2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5667DE57769D063371FD756F2BA82E85 /* ZYImagePickerAndBrower.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYImagePickerAndBrower/ZYImagePickerAndBrower-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYImagePickerAndBrower/ZYImagePickerAndBrower-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZYImagePickerAndBrower/ZYImagePickerAndBrower.modulemap";
+				PRODUCT_MODULE_NAME = ZYImagePickerAndBrower;
+				PRODUCT_NAME = ZYImagePickerAndBrower;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF9CC8A4BE54C9235C714F8B86A23D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B031CAEBA3E65D917F2153A9D73F2C69 /* Pods-ZYimagePickerDisplayDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYimagePickerDisplayDemo/Pods-ZYimagePickerDisplayDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYimagePickerDisplayDemo/Pods-ZYimagePickerDisplayDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5706DF94750A81981B04F092FF0E597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1396CD377CB1D68B26C8751297B183B3 /* Pods-ZYimagePickerDisplayDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYimagePickerDisplayDemoUITests/Pods-ZYimagePickerDisplayDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYimagePickerDisplayDemoUITests/Pods-ZYimagePickerDisplayDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D582BA79A05277B74F332D1746A8391E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF06E431C3A8A131E3179F2B1F84B6E /* Pods-ZYimagePickerDisplayDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYimagePickerDisplayDemoTests/Pods-ZYimagePickerDisplayDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYimagePickerDisplayDemoTests/Pods-ZYimagePickerDisplayDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E246FC26AF4A9832D7AA01080188D618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		081AA9B39AA17748436E56870BB2B5C2 /* Build configuration list for PBXNativeTarget "Pods-ZYimagePickerDisplayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5706DF94750A81981B04F092FF0E597 /* Debug */,
+				336CF1C611A1FDD6F5BA06C8041A40BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EB8574088D62839212E60CFDE4F8817 /* Build configuration list for PBXNativeTarget "ZYImagePickerLayoutView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CFD34F96431915DB20462EA5DB861F /* Debug */,
+				7B6F5A7317700A5421373A4353BC1842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E246FC26AF4A9832D7AA01080188D618 /* Debug */,
+				007F1066051A467FBEB0038594E9D7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AD136A4E9AED252DC32F85FC3E39DCF /* Build configuration list for PBXNativeTarget "Pods-ZYimagePickerDisplayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F3326A44EA34201ACD29EA9FB097F6 /* Debug */,
+				BF9CC8A4BE54C9235C714F8B86A23D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7081D4F5DB7452089E7FDDE7A6F3FE74 /* Build configuration list for PBXNativeTarget "Pods-ZYimagePickerDisplayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C37F09A956D0C7AD6E001947F0CFFDC /* Debug */,
+				D582BA79A05277B74F332D1746A8391E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB3513A71BB432B2477F03EAC1CC6AA /* Build configuration list for PBXNativeTarget "ZYImagePickerAndBrower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17936CDD36A7DC1BA07B4EAF203E48C2 /* Debug */,
+				B04AE6234D40BC7BE535944C19A3C2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

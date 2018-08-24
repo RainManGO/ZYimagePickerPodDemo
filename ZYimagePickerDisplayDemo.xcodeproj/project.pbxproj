@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5882D533A94DC1CABAA47674 /* Pods_ZYimagePickerDisplayDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E3D2EBEC3CA86735F1ED4D /* Pods_ZYimagePickerDisplayDemo.framework */; };
+		CDE6B9F7920A6DD6B3BD2440 /* Pods_ZYimagePickerDisplayDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFFADC3848F6B721A9C3384 /* Pods_ZYimagePickerDisplayDemoTests.framework */; };
+		D19B93FA9C6B9D491B55AEC1 /* Pods_ZYimagePickerDisplayDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C2EEC3A1AB22041BD87BEC /* Pods_ZYimagePickerDisplayDemoUITests.framework */; };
 		EB8D93C1212EAF400001F5E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8D93C0212EAF400001F5E4 /* AppDelegate.swift */; };
 		EB8D93C3212EAF400001F5E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8D93C2212EAF400001F5E4 /* ViewController.swift */; };
 		EB8D93C6212EAF400001F5E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8D93C4212EAF400001F5E4 /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EFFADC3848F6B721A9C3384 /* Pods_ZYimagePickerDisplayDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYimagePickerDisplayDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC934B955577451948C05CA /* Pods-ZYimagePickerDisplayDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYimagePickerDisplayDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZYimagePickerDisplayDemoUITests/Pods-ZYimagePickerDisplayDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31831A8DD6F555E450CE346D /* Pods-ZYimagePickerDisplayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYimagePickerDisplayDemo.release.xcconfig"; path = "Target Support Files/Pods-ZYimagePickerDisplayDemo/Pods-ZYimagePickerDisplayDemo.release.xcconfig"; sourceTree = "<group>"; };
+		431B149275FB7A0C2D98DF8F /* Pods-ZYimagePickerDisplayDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYimagePickerDisplayDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ZYimagePickerDisplayDemoTests/Pods-ZYimagePickerDisplayDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		48E3D2EBEC3CA86735F1ED4D /* Pods_ZYimagePickerDisplayDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYimagePickerDisplayDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B86CF5AC60DEF80AC8F854A /* Pods-ZYimagePickerDisplayDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYimagePickerDisplayDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-ZYimagePickerDisplayDemoUITests/Pods-ZYimagePickerDisplayDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		69C2EEC3A1AB22041BD87BEC /* Pods_ZYimagePickerDisplayDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYimagePickerDisplayDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9085738EF3102A66BFD1051 /* Pods-ZYimagePickerDisplayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYimagePickerDisplayDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZYimagePickerDisplayDemo/Pods-ZYimagePickerDisplayDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EB8D93BD212EAF400001F5E4 /* ZYimagePickerDisplayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYimagePickerDisplayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8D93C0212EAF400001F5E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB8D93C2212EAF400001F5E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		EB8D93DC212EAF420001F5E4 /* ZYimagePickerDisplayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYimagePickerDisplayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8D93E0212EAF420001F5E4 /* ZYimagePickerDisplayDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYimagePickerDisplayDemoUITests.swift; sourceTree = "<group>"; };
 		EB8D93E2212EAF420001F5E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EF680DE9AAEBF955CD655B /* Pods-ZYimagePickerDisplayDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYimagePickerDisplayDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ZYimagePickerDisplayDemoTests/Pods-ZYimagePickerDisplayDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5882D533A94DC1CABAA47674 /* Pods_ZYimagePickerDisplayDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE6B9F7920A6DD6B3BD2440 /* Pods_ZYimagePickerDisplayDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19B93FA9C6B9D491B55AEC1 /* Pods_ZYimagePickerDisplayDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AA72D4459910DA08DDCF917 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48E3D2EBEC3CA86735F1ED4D /* Pods_ZYimagePickerDisplayDemo.framework */,
+				1EFFADC3848F6B721A9C3384 /* Pods_ZYimagePickerDisplayDemoTests.framework */,
+				69C2EEC3A1AB22041BD87BEC /* Pods_ZYimagePickerDisplayDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FD8DAE4DF93D4820ABCCED7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9085738EF3102A66BFD1051 /* Pods-ZYimagePickerDisplayDemo.debug.xcconfig */,
+				31831A8DD6F555E450CE346D /* Pods-ZYimagePickerDisplayDemo.release.xcconfig */,
+				F6EF680DE9AAEBF955CD655B /* Pods-ZYimagePickerDisplayDemoTests.debug.xcconfig */,
+				431B149275FB7A0C2D98DF8F /* Pods-ZYimagePickerDisplayDemoTests.release.xcconfig */,
+				2AC934B955577451948C05CA /* Pods-ZYimagePickerDisplayDemoUITests.debug.xcconfig */,
+				5B86CF5AC60DEF80AC8F854A /* Pods-ZYimagePickerDisplayDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EB8D93B4212EAF400001F5E4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				EB8D93D4212EAF420001F5E4 /* ZYimagePickerDisplayDemoTests */,
 				EB8D93DF212EAF420001F5E4 /* ZYimagePickerDisplayDemoUITests */,
 				EB8D93BE212EAF400001F5E4 /* Products */,
+				8FD8DAE4DF93D4820ABCCED7 /* Pods */,
+				7AA72D4459910DA08DDCF917 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB8D93E5212EAF420001F5E4 /* Build configuration list for PBXNativeTarget "ZYimagePickerDisplayDemo" */;
 			buildPhases = (
+				748598D33C107EE245EA94E9 /* [CP] Check Pods Manifest.lock */,
 				EB8D93B9212EAF400001F5E4 /* Sources */,
 				EB8D93BA212EAF400001F5E4 /* Frameworks */,
 				EB8D93BB212EAF400001F5E4 /* Resources */,
+				99200C79E746C876F04EB984 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB8D93E8212EAF420001F5E4 /* Build configuration list for PBXNativeTarget "ZYimagePickerDisplayDemoTests" */;
 			buildPhases = (
+				806A5D3802F6CD8CD6E43454 /* [CP] Check Pods Manifest.lock */,
 				EB8D93CD212EAF420001F5E4 /* Sources */,
 				EB8D93CE212EAF420001F5E4 /* Frameworks */,
 				EB8D93CF212EAF420001F5E4 /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB8D93EB212EAF420001F5E4 /* Build configuration list for PBXNativeTarget "ZYimagePickerDisplayDemoUITests" */;
 			buildPhases = (
+				F102394D9DC51D5189CBC8F9 /* [CP] Check Pods Manifest.lock */,
 				EB8D93D8212EAF420001F5E4 /* Sources */,
 				EB8D93D9212EAF420001F5E4 /* Frameworks */,
 				EB8D93DA212EAF420001F5E4 /* Resources */,
@@ -250,6 +295,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		748598D33C107EE245EA94E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYimagePickerDisplayDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		806A5D3802F6CD8CD6E43454 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYimagePickerDisplayDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99200C79E746C876F04EB984 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZYimagePickerDisplayDemo/Pods-ZYimagePickerDisplayDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ZYImagePickerAndBrower/ZYImagePickerAndBrower.framework",
+				"${BUILT_PRODUCTS_DIR}/ZYImagePickerLayoutView/ZYImagePickerLayoutView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYImagePickerAndBrower.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYImagePickerLayoutView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZYimagePickerDisplayDemo/Pods-ZYimagePickerDisplayDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F102394D9DC51D5189CBC8F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYimagePickerDisplayDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB8D93B9212EAF400001F5E4 /* Sources */ = {
@@ -428,6 +566,7 @@
 		};
 		EB8D93E6212EAF420001F5E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9085738EF3102A66BFD1051 /* Pods-ZYimagePickerDisplayDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +584,7 @@
 		};
 		EB8D93E7212EAF420001F5E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31831A8DD6F555E450CE346D /* Pods-ZYimagePickerDisplayDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +602,7 @@
 		};
 		EB8D93E9212EAF420001F5E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6EF680DE9AAEBF955CD655B /* Pods-ZYimagePickerDisplayDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +623,7 @@
 		};
 		EB8D93EA212EAF420001F5E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431B149275FB7A0C2D98DF8F /* Pods-ZYimagePickerDisplayDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +644,7 @@
 		};
 		EB8D93EC212EAF420001F5E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC934B955577451948C05CA /* Pods-ZYimagePickerDisplayDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +664,7 @@
 		};
 		EB8D93ED212EAF420001F5E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B86CF5AC60DEF80AC8F854A /* Pods-ZYimagePickerDisplayDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

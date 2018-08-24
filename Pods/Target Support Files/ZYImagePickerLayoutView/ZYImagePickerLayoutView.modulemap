@@ -1,0 +1,6 @@
+framework module ZYImagePickerLayoutView {
+  umbrella header "ZYImagePickerLayoutView-umbrella.h"
+
+  export *
+  module * { export * }
+}

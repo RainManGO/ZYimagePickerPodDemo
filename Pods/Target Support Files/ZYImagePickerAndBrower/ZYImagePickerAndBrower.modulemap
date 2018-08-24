@@ -1,0 +1,6 @@
+framework module ZYImagePickerAndBrower {
+  umbrella header "ZYImagePickerAndBrower-umbrella.h"
+
+  export *
+  module * { export * }
+}

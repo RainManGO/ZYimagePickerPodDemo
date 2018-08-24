@@ -1,24 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fGp-Vm-vha">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="J2c-Cg-NH8">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="vG0-YS-8kY" customClass="ViewController" customModule="ZYImagePickerAndBrower" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2fl-gi-Bhj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Phb-9X-Idc" customClass="ZYImagePickerLayoutView" customModule="ZYImagePickerAndBrower" customModuleProvider="target">
+                                <rect key="frame" x="16" y="118" width="343" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="yXI-EP-Zzi"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S57-dw-s8P">
+                                <rect key="frame" x="133" y="278" width="108" height="30"/>
+                                <state key="normal" title="没有加号的时候"/>
+                                <connections>
+                                    <action selector="selectPhotoBtnClick:" destination="vG0-YS-8kY" eventType="touchUpInside" id="nAL-r0-P6F"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="S57-dw-s8P" firstAttribute="top" secondItem="Phb-9X-Idc" secondAttribute="bottom" constant="60" id="JFb-dl-xKR"/>
+                            <constraint firstItem="Phb-9X-Idc" firstAttribute="top" secondItem="ViL-jP-w48" secondAttribute="top" constant="54" id="Lox-bx-3oM"/>
+                            <constraint firstItem="S57-dw-s8P" firstAttribute="centerX" secondItem="2fl-gi-Bhj" secondAttribute="centerX" id="WAo-AJ-9Oo"/>
+                            <constraint firstItem="Phb-9X-Idc" firstAttribute="leading" secondItem="ViL-jP-w48" secondAttribute="leading" constant="16" id="cxC-Hf-mNz"/>
+                            <constraint firstItem="ViL-jP-w48" firstAttribute="trailing" secondItem="Phb-9X-Idc" secondAttribute="trailing" constant="16" id="p1a-MB-P8T"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ViL-jP-w48"/>
                     </view>
+                    <navigationItem key="navigationItem" id="4mB-Fb-I2H"/>
+                    <connections>
+                        <outlet property="imagePickerView" destination="Phb-9X-Idc" id="fGy-mJ-YsL"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gg3-97-b51" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="870" y="30"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="iWW-hJ-v7r">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fGp-Vm-vha" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VU5-Cr-ElP">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vG0-YS-8kY" kind="relationship" relationship="rootViewController" id="DXI-Yj-hPc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4xw-Lz-ov2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="118" y="29"/>
         </scene>
     </scenes>
 </document>

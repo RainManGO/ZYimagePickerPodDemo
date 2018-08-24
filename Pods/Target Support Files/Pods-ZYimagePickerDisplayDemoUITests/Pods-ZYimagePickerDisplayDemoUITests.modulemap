@@ -1,0 +1,6 @@
+framework module Pods_ZYimagePickerDisplayDemoUITests {
+  umbrella header "Pods-ZYimagePickerDisplayDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
