@@ -46,9 +46,16 @@ public class ZYImagePickerLayoutView: UIView {
     public var addCallBack:CallBack?
     //image个数
     public var dataSource:[UIImage]?
-    
     //是否需要加号
-    public var hiddenPlus = false
+    public var hiddenPlus = false{
+        didSet{
+            if hiddenPlus == true{
+                neeHiddenPlus = false
+            }
+        }
+    }
+    //当需要加号的时候是否隐藏加号
+    var neeHiddenPlus = false
     //一行个数
     public var numberOfLine = 4 {
         didSet{
@@ -101,15 +108,21 @@ extension ZYImagePickerLayoutView{
     }
     
     public func reloadView(){
+        checkHiddenPlus()
+        
         let spaceNumber = CGFloat(numberOfLine) - 1
         let width =  (self.frame.size.width - (space * spaceNumber))/CGFloat(numberOfLine)
         itemSize = ItemSize.init(width:width , height: width, minimumInteritemSpacing: space, minimumLineSpacing: space)
         self.layoutSubviews()
         imageCollectionView.reloadData()
-        
-        //照片最大的时候，隐藏加号
-        if maxNumber == dataSource?.count {
-            hiddenPlus = true
+    }
+    
+    func checkHiddenPlus(){
+        //显示加号且不是最大的时候
+        if maxNumber > (dataSource?.count)! && hiddenPlus == false{
+            neeHiddenPlus = false
+        }else{
+            neeHiddenPlus = true
         }
     }
 }
@@ -119,7 +132,7 @@ extension ZYImagePickerLayoutView:UICollectionViewDelegate,UICollectionViewDataS
     
     public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        if hiddenPlus == true{
+        if neeHiddenPlus == true{
             return dataSource?.count ?? 0
         }else{
             return (dataSource?.count ?? 0) + 1
@@ -142,6 +155,7 @@ extension ZYImagePickerLayoutView:UICollectionViewDelegate,UICollectionViewDataS
             cell.deleteCallBack = { () in
                 self.dataSource?.remove(at: indexPath.row)
                 self.imageCollectionView.reloadData()
+                self.checkHiddenPlus()
             }
             return cell
         }
@@ -165,3 +179,4 @@ extension ZYImagePickerLayoutView:UICollectionViewDelegate,UICollectionViewDataS
         return CGSize(width:itemSize.width, height: itemSize.height)
     }
 }
+

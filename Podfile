@@ -7,7 +7,7 @@ target 'ZYimagePickerDisplayDemo' do
 
   # Pods for ZYimagePickerDisplayDemo
    pod 'ZYImagePickerAndBrower', '~> 0.5.0'
-   pod 'ZYImagePickerLayoutView', '~> 0.1.0'
+   pod 'ZYImagePickerLayoutView', '~> 0.1.1'
 
   target 'ZYimagePickerDisplayDemoTests' do
     inherit! :search_paths
