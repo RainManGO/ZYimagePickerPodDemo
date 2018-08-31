@@ -28,6 +28,7 @@ class ViewController: UIViewController,ZYPhotoAlbumProtocol {
         let imageArray = selectPhotos.map { (model) -> UIImage in
             return model.thumbnailImage!
         }
+        //选择的照片之后去layout显示
         imagePickerView.dataSource = imageArray
         imagePickerView.numberOfLine = 4
         imagePickerView.reloadView()

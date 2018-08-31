@@ -13,14 +13,14 @@
         <!--View Controller-->
         <scene sceneID="J2c-Cg-NH8">
             <objects>
-                <viewController id="vG0-YS-8kY" customClass="ViewController" customModule="ZYImagePickerAndBrower" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vG0-YS-8kY" customClass="ViewController" customModule="ZYimagePickerDisplayDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2fl-gi-Bhj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Phb-9X-Idc" customClass="ZYImagePickerLayoutView" customModule="ZYImagePickerAndBrower" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Phb-9X-Idc" customClass="ZYImagePickerLayoutView" customModule="ZYImagePickerLayoutView">
                                 <rect key="frame" x="16" y="118" width="343" height="100"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="yXI-EP-Zzi"/>
                                 </constraints>

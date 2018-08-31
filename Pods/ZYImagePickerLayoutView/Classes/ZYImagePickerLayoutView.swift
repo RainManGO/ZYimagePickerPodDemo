@@ -35,8 +35,10 @@ public class ZYImagePickerLayoutView: UIView {
         collectionView.delegate = self
         collectionView.dataSource = self
         //  设置 cell
-        collectionView.register(UINib.init(nibName: "ImagePickerLayoutCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: cellIdentifier)
-        collectionView.register(UINib.init(nibName: "PlusCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "PlusCollectionViewCellId")
+        let pathName = "/Frameworks/ZYImagePickerLayoutView.framework"
+        let fullImagePath = Bundle.main.resourcePath?.appending(pathName)
+        collectionView.register(UINib.init(nibName: "ImagePickerLayoutCollectionViewCell", bundle: Bundle.init(path: fullImagePath!)), forCellWithReuseIdentifier: cellIdentifier)
+        collectionView.register(UINib.init(nibName: "PlusCollectionViewCell", bundle: Bundle.init(path: fullImagePath!)), forCellWithReuseIdentifier: "PlusCollectionViewCellId")
         return collectionView
     }()
     
