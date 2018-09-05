@@ -20,7 +20,7 @@
 
 ### CocoaPods
 
-1. Add a pod entry for ZYImagePickerAndBrower to your Podfile `pod 'ZYImagePickerAndBrower', '~> 0.5.0'`
+1. Add a pod entry for ZYImagePickerAndBrower to your Podfile `pod 'ZYImagePickerAndBrower', '~> 0.6.0'`
 2. Add a pod entry for ZYImagePickerAndBrower to your Podfile `pod 'ZYImagePickerLayoutView', '~> 0.1.0'`  可选
 3. Install the pod(s) by running `pod install`.
 
