@@ -65,5 +65,15 @@ ZYPhotoAlbumProtocol回调
         }
  }
 ```
+
+预览图片： ZYPhotoModel支持url,image预览
+
+```swift
+ let photoPreviewVC = ZYPhotoPreviewDeleteViewController()
+        photoPreviewVC.previewPhotoArray = self.selectIamgeArr        //传入预览源，为WQPhotoModel数组，支持缩略图，原图和网络图
+        photoPreviewVC.currentIndex = index                    //当前展示第几张
+        photoPreviewVC.isAllowDelete = false
+        self.navigationController?.pushViewController(photoPreviewVC, animated: true)
+```
 ## License
 
