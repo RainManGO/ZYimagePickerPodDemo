@@ -77,3 +77,9 @@ ZYPhotoAlbumProtocol回调
 ```
 ## License
 
+
+## 待优化
+
+1.浏览点击隐藏和显示toolbar和导航栏
+
+
