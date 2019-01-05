@@ -5,6 +5,10 @@
 ![image](https://github.com/RainManGO/ZYImagePickerAndBrower/blob/master/imagePickerDemo1.gif)
 ![image](https://github.com/RainManGO/ZYImagePickerAndBrower/blob/master/imagePickerDemo2.gif)
 
+
+[demo移步](https://github.com/RainManGO/ZYimagePickerPodDemo)
+
+
 ## Requirements
 
 `ZYImagePickerAndBrower`   支持iOS8+
@@ -17,9 +21,10 @@
 
 ### CocoaPods
 
-1. Add a pod entry for ZYImagePickerAndBrower to your Podfile `pod 'ZYImagePickerAndBrower', '~> 0.5.0'`
+1. Add a pod entry for ZYImagePickerAndBrower to your Podfile `pod 'ZYImagePickerAndBrower', '~> 0.8.0'`
 2. Install the pod(s) by running `pod install`.
 
+[pod demo地址](https://github.com/RainManGO/ZYimagePickerPodDemo)
 
 ## 功能支持
 ==============
@@ -63,5 +68,10 @@ ZYPhotoAlbumProtocol回调
  }
 ```
 
-## License
+## 更新
+==============
+- **0.8.0**: 修复无法返回相册问题
 
+- **0.7.0**: 修复预览之后，导航栏不见了问题。预览最好用present方式。
+
+## License

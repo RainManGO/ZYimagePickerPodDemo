@@ -9,6 +9,8 @@
 import UIKit
 
 public typealias CallBack = ()->()
+public typealias DeleteCallBack = (_ deleteIndex:Int)->()
+public typealias IndexCallBack = (_ selectRow:Int)->()
 
 public struct ItemSize {
     var width:CGFloat = 70
@@ -44,6 +46,10 @@ public class ZYImagePickerLayoutView: UIView {
     
     //添加回调
     public var addCallBack:CallBack?
+    //点击回调
+    public var tapCellCallBack:IndexCallBack?
+    //删除回调
+    public var deletePhotoCallBack:DeleteCallBack?
     //image个数
     public var dataSource:[UIImage]?
     //是否需要加号
@@ -89,7 +95,12 @@ extension ZYImagePickerLayoutView{
     override public func layoutSubviews() {
         super.layoutSubviews()
         for constanst in  self.constraints {
-            let lineNumber = ceilf(Float(CGFloat(dataSource?.count ?? 0)/CGFloat(numberOfLine)))
+            var lineNumber:Float = 0.0
+            if neeHiddenPlus == true{
+                lineNumber  = ceilf(Float(CGFloat(dataSource?.count ?? 0)/CGFloat(numberOfLine)))
+            }else{
+                lineNumber  = ceilf(Float(CGFloat((dataSource?.count ?? 0)+1)/CGFloat(numberOfLine)))
+            }
             print(lineNumber)
             constanst.constant = CGFloat(lineNumber) * (itemSize.width + 10.0)
             imageCollectionView.frame.size.width = self.frame.width
@@ -118,6 +129,11 @@ extension ZYImagePickerLayoutView{
     }
     
     func checkHiddenPlus(){
+        
+        if dataSource == nil{
+            neeHiddenPlus = false
+            return
+        }
         //显示加号且不是最大的时候
         if maxNumber > (dataSource?.count)! && hiddenPlus == false{
             neeHiddenPlus = false
@@ -140,7 +156,7 @@ extension ZYImagePickerLayoutView:UICollectionViewDelegate,UICollectionViewDataS
     }
     
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        if indexPath.row >= (dataSource?.count)! {
+        if indexPath.row >= dataSource?.count ?? 0 {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier:"PlusCollectionViewCellId", for: indexPath) as? PlusCollectionViewCell else {
                 return UICollectionViewCell()
             }
@@ -152,18 +168,26 @@ extension ZYImagePickerLayoutView:UICollectionViewDelegate,UICollectionViewDataS
             }
             
             cell.imageView.image = dataSource![indexPath.row]
+            cell.deleteBtn.isHidden = hiddenDelete
             cell.deleteCallBack = { () in
                 self.dataSource?.remove(at: indexPath.row)
                 self.imageCollectionView.reloadData()
                 self.checkHiddenPlus()
+                self.deletePhotoCallBack!(indexPath.row)
             }
             return cell
         }
     }
     
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if indexPath.row >= (dataSource?.count)! { //加号按钮
-            addCallBack!()
+        if indexPath.row >= dataSource?.count ?? 0 { //加号按钮
+            if let callback = addCallBack{
+                callback()
+            }
+        }else{
+            if let callback = tapCellCallBack {
+                callback(indexPath.row)
+            }
         }
     }
     
@@ -179,4 +203,5 @@ extension ZYImagePickerLayoutView:UICollectionViewDelegate,UICollectionViewDataS
         return CGSize(width:itemSize.width, height: itemSize.height)
     }
 }
+
 

@@ -1,10 +1,10 @@
 PODS:
-  - ZYImagePickerAndBrower (0.6.0)
-  - ZYImagePickerLayoutView (0.1.1)
+  - ZYImagePickerAndBrower (1.0.0)
+  - ZYImagePickerLayoutView (0.1.7)
 
 DEPENDENCIES:
-  - ZYImagePickerAndBrower (~> 0.6.0)
-  - ZYImagePickerLayoutView (~> 0.1.1)
+  - ZYImagePickerAndBrower (~> 1.0.0)
+  - ZYImagePickerLayoutView (~> 0.1.7)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -12,9 +12,9 @@ SPEC REPOS:
     - ZYImagePickerLayoutView
 
 SPEC CHECKSUMS:
-  ZYImagePickerAndBrower: 7ecbeb3161ca5716483afdda2a60cf91e9f0e193
-  ZYImagePickerLayoutView: 41ce5c9f13a2afe18d0f30a5a2d93214dc044984
+  ZYImagePickerAndBrower: 32d294f2cf61b199d45cc61f2a7d0bd85ea4c20d
+  ZYImagePickerLayoutView: c2bc5634bb57ff962ae5bde220f19ea14119e4de
 
-PODFILE CHECKSUM: 3c6faa2f15b402a426c63055181980b0fbe60c63
+PODFILE CHECKSUM: 690213fac0cabf3c9fa0f65fec1778b385088096
 
 COCOAPODS: 1.6.0.beta.1

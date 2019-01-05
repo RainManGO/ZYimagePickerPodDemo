@@ -11,6 +11,8 @@ import UIKit
 class ImagePickerLayoutCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var deleteBtn: UIButton!
+    
     var deleteCallBack:CallBack?
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -398,6 +398,6 @@ class ZYPhotoPreviewViewController: ZYBaseViewController, UICollectionViewDelega
             }
         }
     }
-    
+
 }
 
