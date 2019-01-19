@@ -6,7 +6,7 @@ target 'ZYimagePickerDisplayDemo' do
   use_frameworks!
 
   # Pods for ZYimagePickerDisplayDemo
-   pod 'ZYImagePickerAndBrower', '~> 1.1.0'
+   pod 'ZYImagePickerAndBrower', '~> 1.2.0'
    pod 'ZYImagePickerLayoutView', '~> 0.1.7'
 
   target 'ZYimagePickerDisplayDemoTests' do

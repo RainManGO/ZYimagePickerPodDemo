@@ -6,8 +6,9 @@
 ![image](https://github.com/RainManGO/ZYImagePickerAndBrower/blob/master/imagePickerDemo2.gif)
 
 
+## Important(非常重要)
+这只是一个库文件地址，资源路径不正确，演示不全面。支持pod 请去demo地址查看项目细节。
 [demo移步](https://github.com/RainManGO/ZYimagePickerPodDemo)
-
 
 ## Requirements
 
@@ -70,8 +71,6 @@ ZYPhotoAlbumProtocol回调
 
 ## 更新
 ==============
-- **1.1.0**: 预览bug fix
-
 - **0.8.0**: 修复无法返回相册问题
 
 - **0.7.0**: 修复预览之后，导航栏不见了问题。

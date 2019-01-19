@@ -42,7 +42,7 @@ class ViewController: UIViewController,ZYPhotoAlbumProtocol {
         imagePickerView.tapCellCallBack = { (index) in
             let vc = self.previewPhoto(index: index, images: selectPhotos)
             //如果在外面进入预览，必须用modal的方式
-            self.navigationController?.present(vc, animated: true, completion: nil)
+            self.present(vc, animated: true, completion: nil)
         }
         //删除照片回调
         imagePickerView.deletePhotoCallBack = { (index) in
