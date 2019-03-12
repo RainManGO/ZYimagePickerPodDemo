@@ -78,6 +78,6 @@ ZYPhotoAlbumProtocol回调
 ## License
 
 
-## 有问题记得issues,记得给个star，谢谢
+## 有问题issues，谢谢
 
 
